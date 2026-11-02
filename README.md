@@ -10,9 +10,9 @@ Open the LabVIEW projects in [`Build Library/`](Build%20Library/):
 
 | Project | Output |
 | --- | --- |
-| `CAN_Reader_NIXNET_BuildWin.lvproj` | Windows plugin packed library |
-| `CAN_Reader_NIXNET_BuildRT.lvproj` | Real-time plugin packed library |
-| `CIF_CAN_Reader_NIXNET_UI.lvproj` | Plugin UI packed library |
+| `CAN_Reader_CANsub_BuildWin.lvproj` | Windows plugin packed library |
+| `CAN_Reader_CANsub_BuildRT.lvproj` | Real-time plugin packed library |
+| `CIF_CAN_Reader_CANsub_UI.lvproj` | Plugin UI packed library |
 
 The gRPC service definition is [`Grpc/proto/cif_can_reader_cansub_plugin.proto`](Grpc/proto/cif_can_reader_cansub_plugin.proto).
 
