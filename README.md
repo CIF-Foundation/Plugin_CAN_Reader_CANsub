@@ -25,9 +25,13 @@ The gRPC service definition is [`Grpc/proto/cif_can_reader_cansub_plugin.proto`]
 | `Class/` | Plugin class |
 | `Common/` | Shared types and subVIs |
 | `Grpc/` | gRPC client, server, wrapper, and proto |
-| `Tests/` | Interactive tests |
+| `Tests/` | Interactive tests and the bench test project |
 | `UI/` | Plugin UI |
 | `LICENSE` | Apache License 2.0 |
+
+`Tests/CANsub Plugins Bench Test.lvproj` runs the reader and the writer plugin together on one
+real-time target. It needs the `Plugin_CAN_Writer_CANsub` repository cloned next to this one
+(same parent folder), and the `CIF CAN RW CANsub` package installed.
 
 ## License
 
