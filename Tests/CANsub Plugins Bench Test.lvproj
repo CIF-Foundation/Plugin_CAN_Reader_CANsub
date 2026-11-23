@@ -16,8 +16,8 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="Monroe-PXIe-8862" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">Monroe-PXIe-8862</Property>
+	<Item Name="RT PXI Target" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
 		<Property Name="alias.value" Type="Str">192.168.0.42</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
